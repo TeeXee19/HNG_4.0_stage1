@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<meta charset="utf-8"/>
@@ -9,22 +8,22 @@
 		
 	</head>
 	<body class="bg"> 
-	<!-- Image and text -->
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">HNG INTERNSHIP</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-    </ul>
-  </div>
-</nav>
-		
-		
-		<p class="hng">HNG INTERNSHIP</p>
-
-		<div id="clock"> </div>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">HNG INTERNSHIP</a>
+			</div>
+		  </div> 
+		</nav>
+	  
+		<div class="intro">
+			<div class="intro-body">
+				<div class="col-lg-8">
+					<div class="hng col-md-8 col-md-offset-2">HNG INTERNSHIP 4.0	</div> 
+					<p class="hng" style="color: #80476c; text-align:center" id="clock"> </p>
+				</div>
+			</div>
+		</div>	
 	</body>
 </html>
 <?php
