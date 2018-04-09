@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php
-date_default_timezone_set('UTC');
-?>
+
 <html>
 	<head>
 		<meta charset="utf-8"/>
@@ -25,6 +23,13 @@ date_default_timezone_set('UTC');
 		
 		
 		<p class="hng">HNG INTERNSHIP</p>
+
+		<div id="clock"> </div>
+	</body>
+</html>
+<?php
+date_default_timezone_set('UTC');
+?>
 <script>
 var d = new Date(<?php echo time() * 1000 ?>);
 function digitalClock() {
@@ -45,7 +50,3 @@ window.onload = function() {
   setInterval('digitalClock()', 1000);
 }
 </script>
-		<div id="digitalClock"> </div>
-	</body>
-</html>
-
